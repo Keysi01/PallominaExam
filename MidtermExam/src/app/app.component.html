@@ -1,0 +1,43 @@
+<body>
+  <mat-toolbar>
+      <mat-icon>
+          menu
+      </mat-icon>      
+      <h1><B>PERSONAL WEBSITE</B></h1>
+  </mat-toolbar>
+  
+  <mat-sidenav-container>
+      <mat-sidenav mode="side" opened>
+  
+          <img class="avatar mat-elevation-z8" src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.6435-9/117110031_1238138043196075_8071387864502157613_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFEgiG5c06wuMPJzvWcfpvVxHapCE8HOlvEdqkITwc6W4bzgcZSOSNTS25VkgaR7vVII5Vu4B_4muSrgpgjKLb-&_nc_ohc=ks8lyOsGzN8AX-T---N&_nc_ht=scontent.fcgy2-2.fna&oh=22099f656d6d3f518c99c2385953458c&oe=619E9EDA">
+          <br><br><h2 class="name"><b>KENT CLAIRE APPLE JOY M. PALLOMINA</b></h2>
+  
+          <mat-divider></mat-divider>
+  
+          <mat-list class="list">
+              <mat-list-item> 
+                  <mat-icon class="icon">home</mat-icon> 
+                  <a routerLink="home" (click)="navClick('Home')" routerLinkActive="active" class="anchor_class">Home</a>
+              </mat-list-item>
+              
+              <mat-list-item> 
+                  <mat-icon class="icon">person</mat-icon> 
+                  <a routerLink="profile" (click)="navClick('Profile')" routerLinkActive="active" class="anchor_class">Profile</a>
+              </mat-list-item>
+              <mat-list-item>
+                  <mat-icon class="icon">image</mat-icon>
+                  <a routerLink="gallery" (click)="navClick('Gallery')" routerLinkActive="active" class="anchor_class">Gallery</a> 
+              </mat-list-item>
+              <mat-list-item> 
+                  <mat-icon class="icon">phone</mat-icon> 
+                  <a routerLink="contact" (click)="navClick('Contact')" routerLinkActive="active" class="anchor_class">Contact</a>
+              </mat-list-item>
+          </mat-list>
+          <mat-divider></mat-divider>
+      </mat-sidenav>
+      <mat-sidenav-content class="content">
+      <router-outlet></router-outlet>
+      </mat-sidenav-content>
+      
+  </mat-sidenav-container>
+  </body>

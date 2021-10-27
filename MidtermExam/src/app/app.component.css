@@ -1,0 +1,70 @@
+mat-toolbar{
+    background: #FF9797;
+    color: black;
+    font-family: Century Gothic;
+}
+
+mat-sidenav{
+     margin-top: 16px;
+     margin-left: 10px ;
+     width: 230px;
+     border-right: none;
+     background: #FFBBBB;
+     border-radius: 10px;
+     padding: 16px;
+     text-align: center;
+     font-family: Century Gothic;
+
+}
+
+mat-sidenav-container{
+    height: calc(100vh - 65px);
+    background: #FFDFDF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: century Gothic;
+    color: black;
+}
+mat-list-item:hover{
+    background: rgb(170, 232, 243);
+    cursor: pointer;
+}  
+
+ .content{
+     margin: 16px;
+     margin-left: 32px;
+ }
+
+ .anchor_class{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     text-decoration: none;
+     justify-content: flex-start;
+     font-size: 1rem;
+     color: black;
+     margin-left: 20px;
+     font-family: Century Gothic;
+     
+ }
+
+ .avatar{
+     height: 180px;
+     width: 180px;
+     border-radius: 100px;
+ }
+
+ .name{
+     color: black;
+     font-family: Century Gothic;
+ }
+
+ mat-divider{
+     background-color: black;
+ }
+
+ h1{
+     margin-left: 10px;
+     font-size: 30px;
+     font-family: Century Gothic;
+ }
