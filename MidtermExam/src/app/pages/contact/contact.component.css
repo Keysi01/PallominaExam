@@ -1,0 +1,25 @@
+<<<<<<< HEAD
+pre{
+=======
+.bottom{
+    font-size: 20px;
+    margin-left: 100px;
+}
+.Contact{
+    width: 700px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 200px;
+    text-align: center;
+    background-color: rgba(134, 133, 133, 0.363);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: Century Gothic;
+}
+
+.Contact .fa{
+    font-size: 50px;
+    padding: 10px;
+>>>>>>> b3
+    color: black;
+}
